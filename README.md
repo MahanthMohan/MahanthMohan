@@ -1,4 +1,5 @@
-`package main
+``` go
+package main
 
 import (
 	"fmt"
@@ -30,3 +31,4 @@ func main() {
 	finalResult(averageMahanth, geniusMahanth)
 	fmt.Println("Putting your efforts thoughtfully, will uncover who you really are and the things you are good at !")
 }
+```
