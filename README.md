@@ -20,7 +20,7 @@ func (m mahanth) potential() float32 {
 }
 
 func (avg human, genius human) finalResult() {
-	fmt.Printf("This, %f, is the difference!", avg.potential() - genius.potential())
+	fmt.Printf("This, %f, is the difference!", genius.potential() - avg.potential())
 }
 
 func main() {
