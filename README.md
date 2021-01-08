@@ -29,6 +29,6 @@ func main() {
 	fmt.Println("There is a saying. No matter how talented you may be, you will realize your potential,")
 	fmt.Println("without putting in the time to experience what you have!")
 	finalResult(averageMahanth, geniusMahanth)
-	fmt.Println("Putting your efforts thoughtfully, will uncover who you really are and the things you are good at !")
+	fmt.Println("Putting your efforts thoughtfully, will uncover who you really are and the things you are good at!")
 }
 ```
