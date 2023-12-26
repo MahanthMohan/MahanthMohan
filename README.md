@@ -19,8 +19,8 @@ func (m mahanth) potential() float32 {
 	return Math.Pow(m.time, m.duration)
 }
 
-func (avg human, genius human) finalResult() {
-	fmt.Printf("This, %f, is the difference!", genius.potential() - avg.potential())
+func (avg human, doer human) finalResult() {
+	fmt.Printf("This, %f, is the difference!", doer.potential() - avg.potential())
 }
 
 func main() {
