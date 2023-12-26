@@ -24,11 +24,10 @@ func (avg human, genius human) finalResult() {
 }
 
 func main() {
-	averageMahanth, geniusMahanth := mahanth{1.01, 365}, mahanth{1.03, 365}
+	mahanth1, mahanth2 := mahanth{1.01, 365}, mahanth{1.03, 365}
 	fmt.Println("Hello! I am Mahanth, an avid Mathematician and a Backend Programmer")
-	fmt.Println("There is a saying. No matter how talented you may be, you will realize your potential,")
-	fmt.Println("without putting in the time to experience what you have!")
-	finalResult(averageMahanth, geniusMahanth)
-	fmt.Println("Putting your efforts thoughtfully, will help you uncover who you really are and the things you are really good at!")
+	fmt.Println("There is a saying. You only realize your true potential")
+	fmt.Println("only when you start doing things.")
+	finalResult(mahanth1, mahanth2)
 }
 ```
